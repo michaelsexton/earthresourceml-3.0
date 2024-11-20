@@ -38,11 +38,11 @@ function nameClassifier(name, separator)
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">10/11/2022 10:43:06 AM</td>
+			<td width="85%" class="ObjectDetailsValue">20/11/2024 3:32:41 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">20/11/2024 3:24:31 PM</td>
+			<td class="ObjectDetailsValue">20/11/2024 3:33:54 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,15 +51,15 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">u10301</td>
+			<td class="ObjectDetailsValue">CGI Interoperability Working Group</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue">1.0</td>
+			<td class="ObjectDetailsValue">3.0</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
-			<td class="ObjectDetailsValue">1.0</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
@@ -87,14 +87,15 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{AAD117A3-9113-4269-9188-EF90AD9FDB1B}</td>
+			<td class="ObjectDetailsValue">{F0149446-8F56-4eac-8C42-398E3CC49546}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA8.htm">Context Diagram: Mine</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">-- Definition --&lt;br/&gt;A data type indicating the Mine Status as it changes through time.&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
@@ -260,14 +261,40 @@ function nameClassifier(name, separator)
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
-				<td width="50%" class="TableRow" valign="top">isCollection</td>
+				<td width="50%" class="TableRow" valign="top">byValuePropertyType</td>
 				<td width="50%" class="TableRow" valign="top">false</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario125" onclick="parent.toggleDiv('detailsDIVScenario125','DetailsImageScenario125')" />Details:
 						<div id="detailsDIVScenario125" class="DetailsDiv" >
-						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: Identifies the class as a collection<br /></div>
+						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: enforce the &#39;by value&#39; property pattern without xl<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">hasXmlLang</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario126" onclick="parent.toggleDiv('detailsDIVScenario126','DetailsImageScenario126')" />Details:
+						<div id="detailsDIVScenario126" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: axml attribute xml:lang shall be generated for the type representing the class<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">isCollection</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario127" onclick="parent.toggleDiv('detailsDIVScenario127','DetailsImageScenario127')" />Details:
+						<div id="detailsDIVScenario127" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: Identifies the data type as an object collection.<br /></div>
 
 						</div>
 					</div>
@@ -278,9 +305,35 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario126" onclick="parent.toggleDiv('detailsDIVScenario126','DetailsImageScenario126')" />Details:
-						<div id="detailsDIVScenario126" class="DetailsDiv" >
-						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding<br /></div>
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario128" onclick="parent.toggleDiv('detailsDIVScenario128','DetailsImageScenario128')" />Details:
+						<div id="detailsDIVScenario128" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Surpress creation of a standard property type that supports inline encoding (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">xsdDerivation</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario129" onclick="parent.toggleDiv('detailsDIVScenario129','DetailsImageScenario129')" />Details:
+						<div id="detailsDIVScenario129" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: true | false<br />Default: true<br />Description: class implemented as new type + element, or by applying constraints only<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">xsdEncodingRule</td>
+				<td width="50%" class="TableRow" valign="top">iso19136_2007_INSPIRE_Extensions</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario130" onclick="parent.toggleDiv('detailsDIVScenario130','DetailsImageScenario130')" />Details:
+						<div id="detailsDIVScenario130" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007<br />Description: XML Schema encoding rule to apply<br /></div>
 
 						</div>
 					</div>
