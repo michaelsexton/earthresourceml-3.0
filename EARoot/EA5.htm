@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Context Diagram: EarthResource</title>
+<title>MineralOccurrence</title>
 <link href="../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -31,52 +31,180 @@ function nameClassifier(name, separator)
 </script>
 </head>
 <body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
 <div class="PageBody">
-	
-<img src="EA6.png" usemap="#EA6" border="0" />
-
-<MAP NAME="EA6">
-<area shape="rect" coords="47,535,231,663" href="EA43.htm" target="_self">
-<area shape="rect" coords="815,323,1134,423" href="EA44.htm" target="_self">
-<area shape="rect" coords="825,520,1124,652" href="EA36.htm" target="_self">
-<area shape="rect" coords="400,534,665,656" href="EA39.htm" target="_self">
-<area shape="rect" coords="376,266,688,479" href="EA37.htm" target="_self">
-<area shape="rect" coords="15,322,266,424" href="EA38.htm" target="_self">
-</MAP>
-
-	<div class="ObjectTitle">Context Diagram: EarthResource : Class diagram</div>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MineralOccurrence", " : "))</script>  : Public  &lt;&lt;Leaf&gt;&gt; Package</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">17/02/2009 12:00:00 AM</td>
+			<td width="85%" class="ObjectDetailsValue">22/10/2007 5:37:42 PM</td>
 		</tr>
 		<tr>
-			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">8/11/2022 10:52:14 PM</td>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">9/11/2022 1:19:34 PM</td>
 		</tr>
-		<tr style="padding-top: 10px;">
-			<td width="15%" class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
-			<td width="85%" class="ObjectDetailsValue"></td>			
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj00" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td width="85%" class="ObjectDetailsValue">CGI ERML Working Group</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">CGI Interoperability Working Group</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td width="85%" class="ObjectDetailsValue">3.0</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">3.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr>
-			<td width="15%" class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
-			<td width="85%" class="ObjectDetailsValue"></td>			
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="adv00" style="display: none;">
-			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
-			<td width="85%" class="ObjectDetailsValue">{574D8D7F-62C5-4bec-83A4-5324B88A1966}</td>
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{1744A5E8-D58F-47f3-AE66-186DA6870534}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	
-</div>
+	<div class="ObjectDetailsNotes">The MineralOccurrence package explicitly models the properties of those features commonly stored in mineral resource databases.&#160;&#160;These are economic or sub-economic concentrations of commodities that may, but need not, have had mining activity associated with them. &lt;br/&gt;&lt;br/&gt;The MineralOccurrence package key points are:&lt;br/&gt;1) Describes Earth Resources independent of associated human activities (i.e. mining); &lt;br/&gt;2) Caters for description of Earth Resource using mineral deposit models that describe the actual deposit type; mineral systems that describe the processes associated with deposit formation; and supergene processes; &lt;br/&gt;3) Utilises GeoSciML Mapped Feature to describe spatial representation and Earth Material to describe host, raw and associated materials; &lt;br/&gt;4) Provides the ability to describe commodity resources formally or informally.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">xsdDocument</td>
+				<td width="50%" class="TableRow" valign="top">mineralOccurrence.xsd</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario9" onclick="parent.toggleDiv('detailsDIVScenario9','DetailsImageScenario9')" />Details:
+						<div id="detailsDIVScenario9" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Description: Name of an XML Schema document to create representing the content of this package<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">xsdEncodingRule</td>
+				<td width="50%" class="TableRow" valign="top">iso19136_2007</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10" onclick="parent.toggleDiv('detailsDIVScenario10','DetailsImageScenario10')" />Details:
+						<div id="detailsDIVScenario10" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007<br />Description: XML Schema encoding rule to apply<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">sweCommon</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">ISO 19108 Edition 1</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">ISO 19107 Edition 1</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">SWE Common Data Model 2.0</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">ISO/TS 19103 Edition 1</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">GeoSciMLBasic</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">ISO 19136 Edition 1</td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3.htm">«Application Schema» EarthResource</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">Created by HollowWorld Plugin</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
  
 </body>
 </html>
